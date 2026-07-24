@@ -58,4 +58,5 @@ Dataset source:
 
 Some parts of the implementation were adapted from a public Kaggle notebook.
 https://www.kaggle.com/code/lorresprz/ann-cnn-randomforest-predicting-nice-weather
+
 The project was developed for educational purposes.
