@@ -1,62 +1,96 @@
-# Weather-Prediction-ml
 # 🌦️ Weather Prediction using Machine Learning
 
 ## Overview
-This project predicts weather conditions using machine learning techniques. Ten regression and classification algorithms were implemented and compared to identify the best-performing model.
+
+This project explores weather prediction using a variety of machine learning techniques. A total of 10 regression and classification models were implemented, trained, and evaluated to compare their performance on a real-world weather dataset. The project focuses on data preprocessing, feature engineering, model evaluation, and practical implementation of machine learning algorithms.
+
+---
 
 ## Features
-- Data preprocessing
+
+- Data preprocessing and cleaning
 - Feature engineering
 - Model training
 - Hyperparameter tuning
-- Performance evaluation
-- Comparison of 10 ML algorithms
+- Performance comparison
+- Visualization of results
+
+---
 
 ## Algorithms
+
+### Regression
 - Simple Linear Regression
-- Multivariable Linear Regression
+- Multiple Linear Regression
 - Polynomial Regression
+
+### Classification
 - Logistic Regression
-- Multi-Class Classification
-- KNN
+- K-Nearest Neighbors (KNN)
 - Naive Bayes
-- ANN
-- CNN
 - Random Forest
+- Artificial Neural Network (ANN)
+- Convolutional Neural Network (CNN)
+- Multi-Class Classification
+
+---
 
 ## Evaluation Metrics
+
+Regression:
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+
+Classification:
 - Accuracy
 - Precision
 - Recall
 - F1-score
-- MAE
-- MSE
+
+---
 
 ## Technologies
+
 - Python
 - Pandas
 - NumPy
 - Scikit-learn
+- TensorFlow / Keras
 - Matplotlib
 - Seaborn
+
+---
 
 ## Results
 
 | Model | Accuracy |
-|--------|----------|
+|-------|----------|
 | ANN | 97.67% |
-| CNN | 93.84% |
 | Naive Bayes | 96.44% |
+| CNN | 93.84% |
 | KNN | 92.61% |
+| Random Forest | ... |
+
+---
 
 ## Dataset
 
-Dataset source:
-(https://www.kaggle.com/datasets/thedevastator/weather-prediction/data)
+Weather Prediction Dataset
 
-## Acknowledgements
+https://www.kaggle.com/datasets/thedevastator/weather-prediction/data
 
-Some parts of the implementation were adapted from a public Kaggle notebook.
+---
+
+## References
+
+This project uses the Weather Prediction dataset from Kaggle.
+
+Some implementation ideas were adapted from the following public Kaggle notebook:
+
 https://www.kaggle.com/code/lorresprz/ann-cnn-randomforest-predicting-nice-weather
 
-The project was developed for educational purposes.
+---
+
+## License
+
+This project was developed for educational purposes.
