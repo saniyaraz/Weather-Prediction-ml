@@ -69,7 +69,6 @@ Classification:
 | Naive Bayes | 96.44% |
 | CNN | 93.84% |
 | KNN | 92.61% |
-| Random Forest | ... |
 
 ---
 
