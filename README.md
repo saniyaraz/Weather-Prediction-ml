@@ -44,16 +44,18 @@ This project predicts weather conditions using machine learning techniques. Ten 
 
 | Model | Accuracy |
 |--------|----------|
-| Random Forest | 96% |
-| SVM | 94% |
-| ... | ... |
+| ANN | 97.67% |
+| CNN | 93.84% |
+| Naive Bayes | 96.44% |
+| KNN | 92.61% |
 
 ## Dataset
 
 Dataset source:
-Kaggle
+(https://www.kaggle.com/datasets/thedevastator/weather-prediction/data)
 
 ## Acknowledgements
 
 Some parts of the implementation were adapted from a public Kaggle notebook.
+https://www.kaggle.com/code/lorresprz/ann-cnn-randomforest-predicting-nice-weather
 The project was developed for educational purposes.
